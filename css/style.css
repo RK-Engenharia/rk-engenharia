@@ -1,0 +1,84 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #333;
+  scroll-behavior: smooth;
+}
+header {
+  background: #0a2540;
+  padding: 1rem;
+}
+.logo {
+  height: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+h1, h2 {
+  color: #0a2540;
+}
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.galeria {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.galeria img {
+  width: 48%;
+  border-radius: 8px;
+}
+footer {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    background: #0a2540;
+    padding: 1rem;
+  }
+  .galeria img {
+    width: 100%;
+  }
+}
