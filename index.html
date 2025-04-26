@@ -4,62 +4,72 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RK Engenharia</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
     body { background: #f9f9f9; color: #333; }
-    header { background: #005B4F; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header { background: #1c1c1c; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header img { height: 50px; }
     nav a { color: white; margin-left: 1.5rem; text-decoration: none; font-weight: 500; }
-    .hero { background: #e6f1ef; padding: 4rem 2rem; text-align: center; }
+    .hero { background: #e6f1ef; padding: 5rem 2rem; text-align: center; }
     .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
     .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
     .button { background: #005B4F; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px; font-weight: bold; }
-    section { padding: 4rem 2rem; max-width: 1000px; margin: auto; }
+    section { padding: 4rem 2rem; max-width: 1200px; margin: auto; }
     h2 { font-size: 2rem; margin-bottom: 1.5rem; text-align: center; }
-    .services, .benefits { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
     .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
-    footer { background: #005B4F; color: white; text-align: center; padding: 2rem 1rem; margin-top: 4rem; }
+    footer { background: #1c1c1c; color: white; text-align: center; padding: 2rem 1rem; margin-top: 4rem; }
     .contact-info a { color: white; display: block; margin: 0.5rem 0; text-decoration: none; }
     .whatsapp-button { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; padding: 1rem; border-radius: 50%; font-size: 1.5rem; text-align: center; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>RK Engenharia</h1>
+    <img src="images/logo.png" alt="Logo RK Engenharia" />
     <nav>
       <a href="#servicos">Serviços</a>
       <a href="#sobre">Sobre</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#blog">Blog</a>
       <a href="#contato">Contato</a>
     </nav>
   </header>
 
   <section class="hero">
-    <h1>Transformando Projetos em Realidade</h1>
-    <p>Projetos e construções residenciais e comerciais com excelência e confiança.</p>
-    <a href="https://wa.me/5519991021616" class="button">Fale conosco pelo WhatsApp</a>
+    <h1>Transformamos Projetos em Realidade</h1>
+    <p>Com excelência, inovação e compromisso.</p>
+    <a href="https://wa.me/5519991021616" class="button">Fale conosco</a>
   </section>
 
   <section id="servicos">
-    <h2>O que fazemos</h2>
-    <div class="services">
+    <h2>Serviços</h2>
+    <div class="grid">
       <div class="card">Projetos Arquitetônicos</div>
-      <div class="card">Aprovação em Prefeituras</div>
-      <div class="card">Reformas e Construções</div>
       <div class="card">Regularização de Imóveis</div>
+      <div class="card">Aprovação de Projetos</div>
+      <div class="card">Gestão de Obras 360°</div>
       <div class="card">Consultoria Técnica</div>
     </div>
   </section>
 
   <section id="sobre">
-    <h2>Por que escolher a RK Engenharia?</h2>
-    <div class="benefits">
-      <div class="card">Atendimento personalizado</div>
-      <div class="card">Experiência no mercado</div>
-      <div class="card">Agilidade e comprometimento</div>
-      <div class="card">Acompanhamento técnico especializado</div>
-    </div>
+    <h2>Sobre Nós</h2>
+    <p style="text-align: center; max-width: 800px; margin: auto;">A RK Engenharia é uma empresa focada na excelência em projetos e construções, oferecendo soluções completas, do planejamento à execução, sempre com qualidade e comprometimento.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <p style="text-align: center;">(Em breve, exemplos de nossos projetos!)</p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p style="text-align: center;">(Conteúdos relevantes e dicas sobre construção civil, em breve!)</p>
   </section>
 
   <section id="contato">
